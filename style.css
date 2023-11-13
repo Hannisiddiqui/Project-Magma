@@ -12,6 +12,14 @@ body {
     position: relative;
     overflow: hidden;
 }
+@font-face {
+    font-family: c;
+    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
 #page1 {
     height: 100vh;
     width: 100vw;
@@ -36,9 +44,54 @@ body {
     width: 9%;
 }
 #right-nav>button{
+    margin-top: 1.7vw;
     padding: 10px 20px;
     border-radius: 50px;
     background-color: #0b48ed;
     border: 1px solid #fff;
     color: white;
+    font-family: a;
+    font-size: 15px;
+}
+.bottom-page1{
+    position: absolute;
+    bottom: 10%;
+    height: 40vh;
+    width: 50vw;
+    background-color: red;
+    left: 15%;
+}
+.bottom-page1>h1{
+    font-family: a;
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 1;
+}
+.bottom-page1-p{
+    position: absolute;
+    bottom: 0%;
+    height: 35%;
+    width: 100%;
+    background-color: magenta;
+}
+.bottom-page1-p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    font-family: a;
+}
+.bottom-page1-p>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0b48ed;
+    border: none;
+    font-size: 16px;
+    font-family: a;
+}
+.bottom-page1-p>h4{
+    font-size: 1.3vw;
+    font-weight: 100;
+    color: #fff;
 }
